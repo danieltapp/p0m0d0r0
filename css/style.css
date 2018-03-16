@@ -1,0 +1,22 @@
+body {
+  background-color : #64ffda;
+}
+
+input {
+  max-width: 25%;
+    font-family: 'Fredoka One', cursive;
+  font-size; 150%;
+}
+
+button {
+  font-family: 'Fredoka One', cursive;
+}
+
+.timeDisplay {
+  font-family: 'Monoton', cursive;
+}
+
+a {
+  color: white;
+}
+
