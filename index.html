@@ -7,6 +7,9 @@
   
   
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide|Fredoka+One|Monoton" rel="stylesheet">
+
 
       <link rel="stylesheet" href="css/style.css">
 
@@ -15,14 +18,23 @@
 
 <body>
 
-  <head>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Audiowide|Fredoka+One|Monoton" rel="stylesheet">
-</head>
+  
+
 
 <div class="container center-align  teal lighten-31">
   <div class="section">
-<!--     <i class="large material-icons icon-white">access_time</i> -->
+    <a class="waves-effect waves-light btn modal-trigger left" href="#modal1">?</a>
+
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>What's pomodoro mean?</h4>
+        <p>According to Wikipedia : 'The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s.[1] The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. These intervals are named pomodoros, the plural in English of the Italian word pomodoro (tomato), after the tomato-shaped kitchen timer that Cirillo used as a university student.'</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
+      </div>
+    </div>
+            
   </div>
 
   <div class="section">
@@ -40,9 +52,6 @@
 
     <div class="row center-align">
       <input type="number" class='customTimeInput input-field'>
-      <!--   <button class='customTimeButton waves-effect waves-light btn left'>
-  CUSTOM BREAK TIME
-</button> -->
     </div>
 
     <div class="row">
@@ -62,36 +71,8 @@
   </div>
 </div>
 
-<!-- <i class="large material-icons">access_time</i>
-
-<div class="section">
-  <h1 class="timeDisplay">
-</h1>
-</div>
-
-
-<div class="section">
-  <div class="row">
-  <button class='pomodoroButton waves-effect waves-light btn'>
-  POMODORO
-</button>
-</div>
-
-<div class="row">
-  <button class='customTimeButton waves-effect waves-light btn left'>
-  CUSTOM BREAK TIME
-</button>
-    <input type="number" class='customTimeInput input-field col s2'>
-</div>
-
-<div class="row">
-  <button class="endButton waves-effect waves-light btn red">
-    END
-  </button>
-</div>
-</div> -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js'></script>
 
   
 
